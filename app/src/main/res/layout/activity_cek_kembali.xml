@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CekKembaliActivity"
+    android:padding="16dp"
+    android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/Tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back"
+            android:layout_marginTop="20dp"
+            android:text="Cek Kembali Isian Data"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NIK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Tittle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="130dp"
+            android:text="NIK"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Text_relasi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/relasi"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="0dp"
+            android:hint="Orangtua"
+            android:padding="3dp"
+            android:textColor="@color/black"></EditText>
+
+        <TextView
+            android:id="@+id/relasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Text_gender"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:text="Hubungan dengan anda"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Text_gender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/gender"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="0dp"
+            android:hint="-"
+            android:padding="3dp"></EditText>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Text_tglLahir"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="21dp"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Text_tglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tglLahir"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="0dp"
+            android:hint="-"
+            android:padding="3dp"></EditText>
+
+        <TextView
+            android:id="@+id/tglLahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_Nama"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/text_Nama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/Nama"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="0dp"
+            android:hint="-"
+            android:padding="3dp"></EditText>
+
+        <TextView
+            android:id="@+id/Nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_NIK"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:text="Nama"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/text_NIK"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/NIK"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+
+            android:layout_marginEnd="0dp"
+            android:hint="-"
+            android:padding="3dp"></EditText>
+
+        <EditText
+            android:id="@+id/text_jenistes"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/jenistes"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+
+            android:layout_marginEnd="-6dp"
+            android:hint="Rapid"
+            android:padding="3dp"></EditText>
+
+        <EditText
+            android:id="@+id/text_tanggal_kon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/jenistes"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="-9dp"
+            android:hint="Tanggal Terkonfirmasi"
+            android:padding="3dp"></EditText>
+
+        <TextView
+            android:id="@+id/jenistes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Tittle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="6dp"
+            android:text="Jenis Tes"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jenistes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Tittle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="65dp"
+            android:text="Tanggal Terkonfirmasi"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Text_relasi"
+            android:layout_marginTop="67dp"
+            android:background="@drawable/rounded"
+            android:onClick="pindahhalaman"
+            android:text="Cek Hasil Tes"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ubah"
+            android:layout_below="@id/simpan"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stylecorner"
+            android:text="Ubah"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:onClick="back"
+            android:layout_marginBottom="40dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
