@@ -11,6 +11,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/*
+Developed by AriszaZufarFathurrahman
+10119237
+IF6
+*/
+
 public class MainActivity extends AppCompatActivity {
 
     private Button button1, button2;

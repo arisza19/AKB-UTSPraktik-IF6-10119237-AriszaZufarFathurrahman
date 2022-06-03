@@ -4,6 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/*
+Developed by AriszaZufarFathurrahman
+10119237
+IF6
+*/
+
 public class EndActivity extends AppCompatActivity {
 
     @Override

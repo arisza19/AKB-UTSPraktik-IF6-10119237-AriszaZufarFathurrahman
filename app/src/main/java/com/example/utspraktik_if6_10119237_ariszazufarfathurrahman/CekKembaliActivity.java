@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+/*
+Developed by AriszaZufarFathurrahman
+10119237
+IF6
+*/
+
 public class CekKembaliActivity extends AppCompatActivity {
 
     @Override
